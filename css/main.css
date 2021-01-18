@@ -42,6 +42,8 @@ p {
 }
 .cover-img {
     width: 150px;
+    float: left;  
+    margin: 5px; 
 }
 footer {
     border-top: 1px solid #d5d5d5;
