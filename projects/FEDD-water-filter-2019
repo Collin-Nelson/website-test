@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Collin Nelson - FEDD Water Filter</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>			<!--Talk about myself and this project here-->
+        		<li><a href="/projects">Projects</a></li>	<!--Page with breif descriptions of each project with pictures and links to more detailed descriptions-->
+        		<li><a href="/resume">Resume</a></li>		<!--Put my resume here-->
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1 style="text-align:center">FReshman Engineering Design Day 3D Printed Water Filter Project</h1>
+			
+			<h3> Here's some info about how we built a 3D printed water filter </h3>
+			<p>
+				FEDD info
+			</p>
+			<img src="/PDF.png" alt="Collin Nelson Resume" width="75">
+			
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:ctnn2000@gmail.com">email</a></li>
+        		<li><a href="https://www.linkedin.com/in/collin-nelson">linkedin.com/in/collin-nelson</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
