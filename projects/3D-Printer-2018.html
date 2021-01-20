@@ -18,7 +18,31 @@
 			
 			<h3> Here's some info about how I built a 3D printer </h3>
 			<p>
-				3D Printer info
+				
+					I have been working on individual engineering projects since my third year of high school, when I began my first 3D printer. That project 
+					took me a year to design, build, and start printing crude prints, however the tolerances were poor on those initial prints. It took 
+					another year of refining the design to ultimately get a 3D printer that was able to print well. After a number of prints, I began to have
+					issues with the axies binding and the steppers skipping in the middle of large prints. I then then realized that my use of ball-bearing 
+					rollers on aluminum extrusion was a flawed linear motion system, as the tolerance on the distance between the rollers was to large.
+					This meant that the angle between the axes was loose, and the plates that wrapped around the extrusion to connect the rollers above and 
+					below it were able to bind against the extrusion. This caused the issues with reliability on large prints.
+					
+					For my next design, I chose to position the carrige between two beams of aluminum extrusion, instead of around one. This eliminated the 
+					binding issue, and also allowed me to better tension the carrage by changing the distance between the extrusion beams. In this design, I 
+					also moved the stepper motors inside the cube of the frame to make transporting the printer easier, as well as facilitate enclosing the 
+					printer with foam insulation at a later date.
+					
+					I also worked on some modifications to the electrical system as part of my printer overhaul. The biggest change was modifying an ATX 
+					(desktop computer) power supply to better run my Arduino-based hardware. The printer requires primarily 12v power, but the display and 
+					logic circuits use 5v power. My first printer design relied on the buck converted built into the Arduino MEGA board to drop the voltage, 
+					but my display was flickering because it was not getting sufficient voltage. Becuase of this, I chose to modify the Arduino shield I was 
+					using to manage the printer functions to that the 5v power rail was supplied by the ATX power supply, which was designed to power the 
+					motherboard of a computer, and so had plenty of power to spare. With this change, I also had to add a power resistor to the 5v rail of 
+					my power supply to balance the load, as the 12v rail's voltage was dipping because the power supply relies on use of the 5v rail to 
+					regulate to 12v rail properly. In addition, since I was going to the trouble to set up a better electrical system, I added the wiring 
+					to allow my Arduino MEGA to control the power on/off pin of the power supply, which is what the computer uses to tur itself on and off 
+					when the power button is pushed. To poroerly use this feature, however, I had to also wire the power stand by line to my electronics, so 
+					that the printer would have some power to be able to tell the power supply to turn on.
 			</p>
 			<img src="/images/placeholder.png" width="200">
 			
