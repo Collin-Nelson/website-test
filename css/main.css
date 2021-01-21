@@ -1,14 +1,3 @@
-@top-center {
-   content: element(heading); 
-   }
-   
- p.rh { 
-   position: running(heading); 
-   }
- 
- p.rh::before { 
-   content: counter(page) ' / '; 
-   }
 body {
     margin: 60px auto;
     width: 50%;
