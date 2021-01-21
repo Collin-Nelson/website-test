@@ -10,10 +10,24 @@
 
    		 </div>
 		
+		<script>
+    		
+		var xhr= new XMLHttpRequest();
+		xhr.open('GET', 'nav.html', true);
+		xhr.onreadystatechange= function() {
+    			if (this.readyState!==4) return;
+    			if (this.status!==200) return; // or whatever error handling you want
+    			document.getElementById('nav-id').innerHTML= this.responseText;
+		};
+		xhr.send();
+		
+    		</script>
+    		<!--end of Navigation bar-->
+		
     		<script>
-    		$().ready(function(){
-   		   $("#nav-id").load("nav.html");
-   		 });
+    		$(document).ready(function(){
+   			$("#nav-id").load("nav.html");
+   		});
     		</script>
     		<!--end of Navigation bar-->
 		
