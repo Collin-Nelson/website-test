@@ -37,6 +37,7 @@ p {
 }
 .projects-p {
     text-indent: 0px;
+    float: both;
 }
 .headshot {
     display: block;
@@ -50,7 +51,7 @@ p {
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    /* clear: left;
+    clear: left;
 }
 footer {
     border-top: 1px solid #d5d5d5;
