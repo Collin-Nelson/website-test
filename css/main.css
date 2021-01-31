@@ -35,6 +35,9 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+.projects-p {
+    text-indent: 0px;
+}
 .headshot {
     display: block;
     margin-left: auto;
