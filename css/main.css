@@ -36,7 +36,7 @@ p {
     color: #333;
 }
 .projects-p {
-    text-indent: -30px;
+    text-indent: 0px;
 }
 .headshot {
     display: block;
