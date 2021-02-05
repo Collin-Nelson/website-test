@@ -35,6 +35,9 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+.hidden {
+    display: none !important;
+}
 .projects-p {
     text-indent: 0px;
     float: both;
