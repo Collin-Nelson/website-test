@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Collin Nelson - Eagle Scout Project </title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<!--Navigation bar-->
+    		<div id="nav-id"> </div>
+		
+		<script>
+			var xhr= new XMLHttpRequest();
+			xhr.open('GET', '../nav.html', true);
+			xhr.onreadystatechange= function() {
+    				if (this.readyState!==4) return;
+    				if (this.status!==200) return; // or whatever error handling you want
+    				document.getElementById('nav-id').innerHTML= this.responseText;
+			};
+			xhr.send();
+    		</script>
+    		<!--end of Navigation bar-->
+			
+		<div class="container">
+    <div class="blurb">
+        		
+			  <h1 style="text-align:center"> Eagle Scout Service Project </h1>
+			
+			  <h3 style="text-align:center"> Here is some info about my Eagle Scout Project </h3>
+				<p>
+					----------------------------- TEXT HERE -----------------------------
+				</p>
+			  <img src="/images/IMAGE_TITLE_HERE" alt="IMAGE_TITLE_HERE" class="IMAGE_CLASS_HERE">
+        
+    </div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:ctnn2000@gmail.com">ctnn2000@gmail.com</a></li>
+        		<li><a href="https://www.linkedin.com/in/collin-nelson">linkedin.com/in/collin-nelson</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
