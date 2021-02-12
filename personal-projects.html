@@ -9,25 +9,25 @@
 	<body>
 		
 		<!--Navigation bar-->
-    	<div id="nav-id"> 
+    		<div id="nav-id"> 
 			<script>
 				var xhr= new XMLHttpRequest();
 				xhr.open('GET', 'nav.html', true);
 				xhr.onreadystatechange= function() {
-    				if (this.readyState!==4) return;
-    				if (this.status!==200) return; // or whatever error handling you want
-    				document.getElementById('nav-id').innerHTML= this.responseText;
+    					if (this.readyState!==4) return;
+    					if (this.status!==200) return; // or whatever error handling you want
+    					document.getElementById('nav-id').innerHTML= this.responseText;
 				};
 				xhr.send();
-    		</script>
+    			</script>
 		</div>
-    	<!--end of Navigation bar-->
+    		<!--end of Navigation bar-->
 		
 		<div class="container">
     		<h1 style="text-align:center">Welcome to my Personal Projects</h1>
 			<h2 style="text-align:center"> Here are some of the personal projects I've done </h2>
 
-			<div class="hidden">
+			<div class="project" class="hidden">
 				<h3> Python Sudoku Solver </h3>
 				<img src="/images/placeholder.png" class="cover-img">
 				<p class="projects-p">
@@ -36,7 +36,7 @@
 				<p class="projects-p"> Click <a href="/projects/Python-Sudoku-Solver"> here </a> to see more about this project </p>
 			</div>
 			
-			<div>
+			<div class="project">
 				<h3> Eagle Scout Service Project </h3>
 				<img src="/images/Eagle-Project-Cover.jpeg" class="cover-img">
 				<p class="projects-p">
@@ -52,7 +52,7 @@
 				<p class="hidden" class="projects-p"> Click <a href="/projects/Eagle-Scout-Service-Project"> here </a> to see more about this project </p>
 			</div>
 
-			<div>
+			<div class="project">
 				<h3> 3D Printer 2018 </h3>
 				<img src="/images/3D-Printer-2018-Cover.jpg" class="cover-img">
 				<p class="projects-p">
