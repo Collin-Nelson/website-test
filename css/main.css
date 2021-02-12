@@ -48,20 +48,9 @@ p {
     margin-right: auto;
     width: 45%;
 }
-.cover-img-cont {
-    width: 300px;
-    hieght: 300px;
-    object-fit:fill;
-    float: left;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    clear: left;
-}
 .cover-img {
     width: 300px;
-    hieght: 300px;
-    object-fit:fill;
+    height: 300px;
     float: left;
     margin-right: 10px;
     margin-top: 10px;
